@@ -1,0 +1,13 @@
+ru\autotests\properties\AppProperties.class
+ru\autotests\scenario\yandex\ScenarioYandexOne.class
+ru\autotests\pages\yandex\ResultCatalogPage.class
+ru\autotests\pages\yandex\YandexMarketPage.class
+ru\autotests\pages\yandex\YandexElectronicsPage.class
+ru\autotests\util\AllureListener.class
+ru\autotests\pages\yandex\CatalogPage.class
+ru\autotests\steps\yandex\YandexMarketSteps.class
+ru\autotests\pages\yandex\YandexPage.class
+ru\autotests\steps\BaseStepsMethods.class
+ru\autotests\scenario\yandex\ScenarioHooks.class
+ru\autotests\pages\BasePage.class
+ru\autotests\scenario\yandex\ScenarioYandexTwo.class

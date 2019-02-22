@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1550673665608" stop="1550673933078" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Фильтрация</name>
+    <test-cases>
+        <test-case start="1550673670337" stop="1550673804333" status="passed">
+            <name>Проверка фильтрации телевизоров</name>
+            <steps>
+                <step start="1550673685100" stop="1550673706931" status="passed">
+                    <name>clickLink[, [[ChromeDriver: chrome on XP (9c48ffe77453eab02c7d22e6f54d4aa3)] -&gt; xpath: //A[@class='home-link home-link_b...]</name>
+                    <title>Клик по ссылке </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1550673706934" stop="1550673707085" status="passed">
+                    <name>acceptDialogAlert</name>
+                    <title>Закрываем диалоговое окно кнопкой ОК</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1550673707230" stop="1550673724960" status="passed">
+                    <name>clickButton[, [[ChromeDriver: chrome on XP (9c48ffe77453eab02c7d22e6f54d4aa3)] -&gt; xpath: /html/body/div[1]/div/span/div[...]</name>
+                    <title>Клик по кнопке </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1550673724999" stop="1550673735025" status="passed">
+                    <name>clickLink[, [[ChromeDriver: chrome on XP (9c48ffe77453eab02c7d22e6f54d4aa3)] -&gt; xpath: //A[@href='/catalog--televizory/5...]</name>
+                    <title>Клик по ссылке </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1550673735061" stop="1550673741869" status="passed">
+                    <name>clickButton[, [[ChromeDriver: chrome on XP (9c48ffe77453eab02c7d22e6f54d4aa3)] -&gt; xpath: /html/body/div[1]/div[5]/div[2]...]</name>
+                    <title>Клик по кнопке </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1550673741968" stop="1550673742522" status="passed">
+                    <name>fillField[, 20000, [[ChromeDriver: chrome on XP (9c48ffe77453eab02c7d22e6f54d4aa3)] -&gt; id: glf-pricefrom-var]]</name>
+                    <title>поле  заполняется значением 20000</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1550673742545" stop="1550673742854" status="passed">
+                    <name>clickLink[, [[ChromeDriver: chrome on XP (9c48ffe77453eab02c7d22e6f54d4aa3)] -&gt; xpath: //LABEL[@class='checkbox__label']...]</name>
+                    <title>Клик по ссылке </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1550673742992" stop="1550673743273" status="passed">
+                    <name>clickLink[, [[ChromeDriver: chrome on XP (9c48ffe77453eab02c7d22e6f54d4aa3)] -&gt; xpath: //LABEL[@class='checkbox__label']...]</name>
+                    <title>Клик по ссылке </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1550673773403" stop="1550673803456" status="broken">
+                    <name>clickButton[, Proxy element for: DefaultElementLocator 'By.xpath: /html/body/div[1]/div[5]/div/div[1]/div[4]/a[2]']</name>
+                    <title>Клик по кнопке </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="nb-03245"/>
+                <label name="thread" value="9420@nb-03245.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1550673804348" stop="1550673933063" status="passed">
+            <name>Проверка фильтрации наушников</name>
+            <steps>
+                <step start="1550673825863" stop="1550673830319" status="passed">
+                    <name>clickLink[, [[ChromeDriver: chrome on XP (c88bd02ebfa596b10c865666f4b7c9e1)] -&gt; xpath: //A[@class='home-link home-link_b...]</name>
+                    <title>Клик по ссылке </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1550673830321" stop="1550673830321" status="passed">
+                    <name>acceptDialogAlert</name>
+                    <title>Закрываем диалоговое окно кнопкой ОК</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1550673830426" stop="1550673847080" status="passed">
+                    <name>clickButton[, [[ChromeDriver: chrome on XP (c88bd02ebfa596b10c865666f4b7c9e1)] -&gt; xpath: /html/body/div[1]/div/span/div[...]</name>
+                    <title>Клик по кнопке </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1550673847107" stop="1550673855516" status="passed">
+                    <name>clickLink[, [[ChromeDriver: chrome on XP (c88bd02ebfa596b10c865666f4b7c9e1)] -&gt; xpath: /html/body/div[1]/div[2]/div[7]/d...]</name>
+                    <title>Клик по ссылке </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1550673855552" stop="1550673864220" status="passed">
+                    <name>clickButton[, [[ChromeDriver: chrome on XP (c88bd02ebfa596b10c865666f4b7c9e1)] -&gt; xpath: /html/body/div[1]/div[5]/div[2]...]</name>
+                    <title>Клик по кнопке </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1550673864291" stop="1550673864640" status="passed">
+                    <name>fillField[, 20000, [[ChromeDriver: chrome on XP (c88bd02ebfa596b10c865666f4b7c9e1)] -&gt; id: glf-pricefrom-var]]</name>
+                    <title>поле  заполняется значением 20000</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1550673864687" stop="1550673864921" status="passed">
+                    <name>clickLink[, [[ChromeDriver: chrome on XP (c88bd02ebfa596b10c865666f4b7c9e1)] -&gt; xpath: //LABEL[@class='checkbox__label']...]</name>
+                    <title>Клик по ссылке </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1550673865041" stop="1550673872249" status="passed">
+                    <name>clickButton[, [[ChromeDriver: chrome on XP (c88bd02ebfa596b10c865666f4b7c9e1)] -&gt; xpath: /html/body/div[1]/div[5]/div/di...]</name>
+                    <title>Клик по кнопке </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1550673902297" stop="1550673932338" status="broken">
+                    <name>clickButton[Количество элементво на странице, Proxy element for: DefaultElementLocator 'By.xpath: /html/body/div[1]/div[...]</name>
+                    <title>Клик по кнопке Количество элементво на странице</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="nb-03245"/>
+                <label name="thread" value="9420@nb-03245.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
